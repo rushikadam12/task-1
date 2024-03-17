@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.outer-div {
+  animation: slide 1s forwards; /* Example animation */
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-500px);
+  }
+}
+
+.outer-div2 {
+  animation: slide2 1s forwards; /* Example animation */
+}
+@keyframes slide2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}
+
+
+
+.outer-div_out1 {
+  animation: slide3 1s forwards; /* Example animation */
+}
+@keyframes slide3 {
+  0% {
+     transform: translateX(-500px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.outer-div_out2{
+  animation: slide4 1s forwards; /* Example animation */
+}
+@keyframes slide4 {
+  0% {
+    transform: translateX(500px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
